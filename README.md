@@ -1,5 +1,5 @@
 # Phong-Shading
-- ## glew,glfw를 다운받아 Dependencis 폴더에 넣어야 합니다.
+- ## glew,glfw,glm을 다운받아 Dependencis 폴더에 넣거나 project 폴더에 넣어서 include  합니다.
 ### 파일 이름 입력을 통해 .obj 파일을 읽고 position에 정점들을 넣어주며 incides에 face 정보를 넣은후 glDrawElements() 함수를 사용하여 그린다. 중간에 Normals 배열에 normal vector를 계산하여 넣어준 후, phong shading까지 구현하였습니다.
 
 #### 입력예시: dragon.obj
